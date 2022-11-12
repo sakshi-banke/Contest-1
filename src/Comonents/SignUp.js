@@ -3,7 +3,7 @@ import {Button, Col, Form, InputGroup, Row }from 'react-bootstrap';
 import "./SignUp.css"
 
 
-const SignUpForm = () => {
+const SignUpForm1 = () => {
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -71,4 +71,4 @@ const SignUpForm = () => {
   );
 }
 
-export default SignUpForm;
+export default SignUpForm1;

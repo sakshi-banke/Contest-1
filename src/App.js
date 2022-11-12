@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SignUpForm from "./Comonents/SignUp"
+import SignUpForm1 from "./Comonents/SignUp"
 
 function App() {
   return (
     <div className="App">
-      <SignUpForm />
+      <SignUpForm1 />
     </div>
   );
 }
